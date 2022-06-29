@@ -9,6 +9,7 @@
     "typeRoots": [
       "./node_modules/@types"
     ],
+    "types": ["@types/gtag.js"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
