@@ -77,9 +77,9 @@ echo .
 echo .
 echo .
 
-rm yarn.lock
-yarn install
-yarn build
+rm package-lock.lock
+npm install
+npm run build
 
 echo .
 echo .
