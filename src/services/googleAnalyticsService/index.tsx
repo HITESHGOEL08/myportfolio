@@ -1,4 +1,4 @@
-import ReactGA from "react-ga";
+// import ReactGA from "react-ga";
 
 declare let gtag: Function;
 export class googleAnalyticsService {
@@ -17,20 +17,20 @@ export class googleAnalyticsService {
     // gtag("config", "G-J554NR5SH8", { page_path: window.location.pathname });
   };
 
-  static sendEvent = ({
-    eventCategory,
-    eventAction,
-    eventValue,
-    eventLabel,
-    nonInteraction,
-  }: any) => {
-    // ReactGA.ga("send", "event", data);
-    ReactGA.event({
-      category: eventCategory,
-      action: eventAction,
-      value: eventValue,
-      label: eventLabel,
-      nonInteraction,
-    });
-  };
+  // static sendEvent = ({
+  //   eventCategory,
+  //   eventAction,
+  //   eventValue,
+  //   eventLabel,
+  //   nonInteraction,
+  // }: any) => {
+  //   // ReactGA.ga("send", "event", data);
+  //   ReactGA.event({
+  //     category: eventCategory,
+  //     action: eventAction,
+  //     value: eventValue,
+  //     label: eventLabel,
+  //     nonInteraction,
+  //   });
+  // };
 }
