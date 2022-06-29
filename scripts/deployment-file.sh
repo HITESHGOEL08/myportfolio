@@ -41,7 +41,7 @@ echo .
 echo .
 echo .
 
-cd /home/MyLife
+cd /home/myportfolio
 
 echo .
 echo .
@@ -53,7 +53,7 @@ echo .
 echo .
 echo .
 
-git checkout master
+git checkout main
 
 echo .
 echo .
@@ -78,7 +78,6 @@ echo .
 echo .
 
 rm yarn.lock
-yarn add node-sass
 yarn install
 yarn build
 
